@@ -7,7 +7,7 @@ import PenyelenggaraDashboard from './pages/PenyelenggaraDashboard'
 import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
 import PenyelenggaraPage from './pages/PenyelenggaraPage'
-// import DetailKampanye from './pages/DetailKampanye'
+import DetailKampanye from './pages/DetailKampanye'
 
 function App() {
  
@@ -19,7 +19,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/donasi" element={<DonasiPage />} />
         <Route path="/penyelenggara" element={<PenyelenggaraPage />} />
-        {/* <Route path="/kampanye/:id" element={<DetailKampanye />} /> */}
+        <Route path="/kampanye/:id" element={<DetailKampanye />} />
         <Route path="/penyelenggara" element={<PenyelenggaraDashboard />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
