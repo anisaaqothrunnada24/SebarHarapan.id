@@ -10,6 +10,7 @@ import DetailKampanye from './pages/DetailKampanye'
 import DashboardDonasi from './pages/DashboardDonasi'
 import FormDonasi from './pages/FormDOnasi'
 import DetailDonasi from './pages/DetailDonasi'
+import RiwayatDonasi from './pages/RIwayatDonasi'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/donasi" element={<DashboardDonasi />} />
         <Route path="/formdonasi/:id" element={<FormDonasi/>} />
         <Route path="/detail/:id" element={<DetailDonasi />} />
+        <Route path="/riwayatdonasi" element={<RiwayatDonasi />} />
         <Route path="/penyelenggara" element={<PenyelenggaraPage />} />
         <Route path="/kampanye/:id" element={<DetailKampanye />} />
         <Route path="/penyelenggara" element={<PenyelenggaraDashboard />} />

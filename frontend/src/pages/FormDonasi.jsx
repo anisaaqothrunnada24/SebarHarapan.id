@@ -65,7 +65,7 @@ const FormDonasi = () => {
             Kembali ke Donasi
           </button>
           <button
-            onClick={() => navigate('/riwayat-donasi')}
+            onClick={() => navigate('/riwayatdonasi')}
             className="bg-gray-100 border px-4 py-2 rounded hover:bg-gray-200"
           >
             Lihat Riwayat Donasi
