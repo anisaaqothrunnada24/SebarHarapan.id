@@ -66,7 +66,7 @@ const DashboardDonasi = () => {
           <div
             key={c.id}
             className="bg-white border shadow rounded-xl overflow-hidden hover:shadow-lg cursor-pointer"
-            onClick={() => navigate(`/formdonasi/${c.id}`)}
+            onClick={() => navigate(`/detail/${c.id}`)}
           >
             <div className="relative">
               <img src={c.gambar} alt={c.judul} className="w-full h-48 object-cover" />
