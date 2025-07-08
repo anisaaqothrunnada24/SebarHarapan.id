@@ -172,7 +172,7 @@ const FormDonasi = () => {
         <h3 className="text-sm font-semibold mb-2">Pilih Metode Pembayaran</h3>
         <div className="flex justify-between items-center">
           <span className="font-semibold text-sm">QRIS</span>
-          <img src="/assets/qris-logo.png" alt="QRIS" className="h-6" />
+          <img src="/assets/qris.png" alt="QRIS" className="h-6" />
         </div>
       </div>
 
