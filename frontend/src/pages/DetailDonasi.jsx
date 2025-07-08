@@ -83,7 +83,7 @@ const DetailDonasi = () => {
             <p className="text-sm text-gray-500 mb-2">Dari target Rp{campaign.target.toLocaleString()}</p>
             <p className="text-sm text-gray-500 mb-4">{campaign.sisaHari} Hari Lagi</p>
             <button
-              onClick={() => navigate(`/donasi/${campaign.id}`)}
+              onClick={() => navigate(`/formdonasi/${campaign.id}`)}
               className="w-full bg-red-600 hover:bg-red-700 text-white py-2 rounded text-lg font-semibold"
             >
               Donasi Sekarang
