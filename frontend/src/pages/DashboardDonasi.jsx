@@ -38,7 +38,7 @@ const DashboardDonasi = () => {
         hariTersisa: 23,
       },
       {
-        id: 3,
+        id: 4,
         judul: 'Donasi Untuk Saudara kita di Palestina',
         gambar: '/assets/palestina.jpg', 
         kategori: 'Panti Sosial',

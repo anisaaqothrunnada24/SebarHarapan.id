@@ -9,9 +9,9 @@ import PenyelenggaraPage from './pages/PenyelenggaraPage'
 import DetailKampanye from './pages/DetailKampanye'
 import DashboardDonasi from './pages/DashboardDonasi'
 import FormDonasi from './pages/FormDOnasi'
+import DetailDonasi from './pages/DetailDonasi'
 
 function App() {
- 
   return (
     <Router>
       <Navbar />
@@ -20,6 +20,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/donasi" element={<DashboardDonasi />} />
         <Route path="/formdonasi/:id" element={<FormDonasi/>} />
+        <Route path="/detail/:id" element={<DetailDonasi />} />
         <Route path="/penyelenggara" element={<PenyelenggaraPage />} />
         <Route path="/kampanye/:id" element={<DetailKampanye />} />
         <Route path="/penyelenggara" element={<PenyelenggaraDashboard />} />
