@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage'
 import PenyelenggaraPage from './pages/PenyelenggaraPage'
 import DetailKampanye from './pages/DetailKampanye'
 import DashboardDonasi from './pages/DashboardDonasi'
+import FormDonasi from './pages/FormDOnasi'
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/donasi" element={<DashboardDonasi />} />
+        <Route path="/formdonasi/:id" element={<FormDonasi/>} />
         <Route path="/penyelenggara" element={<PenyelenggaraPage />} />
         <Route path="/kampanye/:id" element={<DetailKampanye />} />
         <Route path="/penyelenggara" element={<PenyelenggaraDashboard />} />
